@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body>
+  <header>
+    <nav>
+      <div><img src="./images/logo.svg" alt="logo"></div>
+      <ul>
+        <div class="left">
+          <div onclick="expand('features')" class="features">
+            <a>Features</a>
+            <img src="./images/icon-arrow-down.svg" alt="down-arrow">
+            <div class="expand-features">
+              <li>
+                <img src="./images/icon-todo.svg" alt="image">
+                Todo List
+              </li>
+              <li>
+                <img src="./images/icon-calendar.svg" alt="image">
+                Calendar
+              </li>
+              <li>
+                <img src="./images/icon-reminders.svg" alt="image">
+                Reminders
+              </li>
+              <li>
+                <img src="./images/icon-planning.svg" alt="image">
+                Planning
+              </li>
+            </div>
+          </div>
+          <div onclick="expand('company')" class="company">
+            <a>Company</a>
+            <img src="./images/icon-arrow-down.svg" alt="down-arrow">
+            <div class="expand-company">
+              <li>History</li>
+              <li>Our Team</li>
+              <li>Blog</li>
+            </div>
+          </div>
+          <li>
+            <a href="#">Careers</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+        </div>
+        <div class="right">
+          <li><a href="#">Log in</a></li>
+          <li class="register"><a href="#">Register</a></li>
+        </div>
+      </ul>
+      
+      <div class="open">
+        <img src="./images/icon-menu.svg" alt="open">
+      </div>
+      <div class="close">
+        <img src="./images/icon-close-menu.svg" alt="close">
+      </div>
+    </nav>
+  </header>
+
+  <div class="main">
+    <div class="hero-image">
+      <img src="./images/image-hero-mobile.png" alt="logo">
+    </div>
+
+    <div class="content">
+      <h1 class="content-header">Make remote work</h1>
+      <p class="content-paragraph">Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+      <div class="content-button">
+        Learn more
+      </div>
+    </div>
+    <footer>
+      <img src="./images/client-databiz.svg" alt="image">
+      <img src="./images/client-audiophile.svg" alt="image">
+      <img src="./images/client-meet.svg" alt="image">
+      <img src="./images/client-maker.svg" alt="image">
+    </footer>
+  </div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/ali-akbar-qasimi" target="_blank">Ali Akbar Qasimi</a>.
+  </div>
+
+
+  <script src="./scripts.js"></script>
+</body>
+</html>
